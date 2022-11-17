@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Dancing+Script&family=Manrope:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-family: 'Manrope', sans-serif;
+}
+
+section {
+    
+    background-color: whitesmoke;
+    height: fit-content;
+    width: 50%;
+    margin: 40px;
+    margin-inline: auto;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+section h1 {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+section ul {
+    width: 60%;
+    float:left;
+}
+
+section article {
+    clear: both;
+}
+
+.indice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}

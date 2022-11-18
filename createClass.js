@@ -15,6 +15,7 @@ window.onload = document.getElementById("quadro-aula").innerHTML = `
     ${createClass("./assets/aula-10-07/page-10-07.html","07/10/22")}
     ${createClass("./assets/aula10-21/aula10-21.html","21/10/22")}
     ${createClass("./assets/atividade10-21/ativ-10-21.html","21/10/22")}
+    ${createClass("./assets/atividade-11-11/atividade-11-11.html","11/11/22")}
 
 `
 

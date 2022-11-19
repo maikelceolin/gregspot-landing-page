@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 html, body {
     padding: 0;
@@ -9,9 +11,10 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
     scroll-behavior:smooth;
     background-image: linear-gradient(to right,
-    rgb(217, 217, 222),
+    rgb(171, 171, 173),
     rgb(204, 204, 204),
-    rgb(217, 217, 222));
+    rgb(204, 204, 204),
+    rgb(171, 171, 173));
     
     scroll-behavior: smooth;
 }

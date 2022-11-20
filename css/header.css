@@ -4,64 +4,58 @@ header {
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 10vh;
     justify-content: space-between;
     align-items: center;
-    padding: 2vmin;
-    background-color: #3a3632d2;
-    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.884);
+    font-family: 'Outfit', sans-serif;
     
 }
 
-
-.logo {
-    display: flex;
-    align-items: center;
-    margin-left: 5vw;
-    width: 20vmax;
-    color:#54DBEB;
-    font-size: 0.9em;
-}
-
-.logo h1 {
-    color:#5CDFE3;
-    font-size: 2em;
-    margin:0;
-    -webkit-text-stroke: 0.8px #4012bf;
-}
-
-.logo h2 {
-    color:white;
-    font-size: 2.5em;
-    margin:0;
-    font-family: 'Comfortaa', cursive;
-    text-shadow:1px 1px rgb(10, 7, 32);
-}
-
-
+/* LINKS DA NAV */
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-left: 8vw;
+    gap: 70px;
     width: 60vw;
     list-style: none;
 }
 
 nav a {
-    color: #85e4fc;
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 2.5vw;
-    font-size: 3.5vmin;
+    font-size: 1.2em;
 }
 
 nav a:hover, .material-symbols-outlined:hover{
     color: aqua;
     transition: 0.5s;
+    text-shadow:none;
 }
 
-nav li {
-    margin-right: 5vw;
+/* LOGO DA NAV */
+
+header .logo {
+    display: flex;
+    align-items: center;
+    width: 20vmax;
+    color:#54DBEB;
+    font-size: 0.9em;
 }
 
+header .logo h1 {
+    color:#5CDFE3;
+    font-size: 2em;
+    margin:0;
+}
+
+header .logo h2 {
+    color:white;
+    font-size: 1.8em;
+    margin:0;
+}
 
 .social{
     display: flex;
@@ -84,7 +78,7 @@ nav li {
         justify-content: space-around;
         align-items: center;
         padding-top: 3%;
-        background-color: #3A3632;
+        background-color: black;
     }
     
     .logo {

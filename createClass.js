@@ -2,14 +2,14 @@
 function createClass(link, data){
     return `
     <li>
-        <a href="${link}"><img src="./img/books.png" alt="atividade"></a>
-        <h2>Atividade<br>${data}</h2>
+        <img src="./img/aula-img.png" alt="atividade" height="50px">
+        <a href="${link}"><h2>Atividade<br>${data}</h2></a>
     </li>
 
 `
 }
 
-window.onload = document.getElementById("quadro-aula").innerHTML = `
+window.onload = document.querySelector('.quadro-aula').innerHTML = `
     ${createClass("./assets/aula-09-16/index.html","16/09/22")}
     ${createClass("./assets/aula-09-23/page-09-23.html","23/09/22")}
     ${createClass("./assets/aula-10-07/page-10-07.html","07/10/22")}

@@ -11,124 +11,155 @@ main section {
     width: 100vw;
 }
 
-h1 {
-    color:#006280;
-    font-size: 20pt;
-}
+/* HOME SECTION */
 
 #home {
     display: flex;
+    
+}
+
+.right {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
-    align-items: center;
+    background-color: #7CC4DB;
+    width: 65vw;
+    padding-left: 5%;
 }
 
-#home article {
-    width: 50vw;
-    height: 30vh;
-    text-align: center;
-    font-size: 3ex;
+.left {
+    background-color: yellow;
+    width: 35vw;
 }
 
-#home .slider {
-    display: flex;
-    background-color: whitesmoke;
-    height: 40vh;
-    width: 80vw;
-    margin: 4ex;
+.right article {
+    margin-top: 8%;
+    width: 80%;
 }
 
-#home .info{
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
+.right article h1 {
+    font-size: 6em;
 }
 
-.info #left, .info #right {
-    height: fit-content;
-    padding: 30px;
-    background-color:rgba(250, 250, 250, 0.7);
-    box-shadow: 5px 5px 5px rgba(162, 160, 160, 0.8);
-    border: solid 1px lightgray;
-    border-radius: 30px;
-    margin: 40px;
-    font-size: 17pt;
+.right article p {
+    font-size: 2em;
 }
 
-.info #left {
-    text-align: justify;
+.right button {
+    border-style: none;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-inline: 40px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-#aulas {
-    display: flex;
-    padding-top: 100px;
-    justify-content: center;
-}
-
-#aulas article{
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    border-radius: 30px;
-    font-size: 17pt;
-    align-items: center;
-}
-
-#aulas article ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
-}
-
-#aulas ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#aulas h2 {
-    font-size: 14pt;
-    color:#03546d;
-}
-
-
-#aulas img {
-    height: 120px;
-}
-
-#aulas img:hover {
-    scale: 1.3;
-    transition: 0.5s;
-}
+/* PROJETOS SECTION */
 
 #projetos {
     display: flex;
     flex-direction: column;
+    flex-direction: flex-start;
+    background: url(../img/projetos-img.jpg);
+    background-size: cover;
+}
+
+#projetos article {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: #021d42;
+    color: whitesmoke;
+    margin-top: -70px;
     padding-top: 100px;
 }
 
-#banners {
+#projetos article h1 {
+    font-size: 2.5em;
+}
+
+#projetos article p {
+    font-size: 1.5em;
+}
+
+#projetos .itens {
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0.700),
+    rgba(0, 0, 0, 0.925),
+    rgba(0, 0, 0, 0.700));
+
     display: flex;
-    gap: 10ex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75%;
+}
+
+.itens .tech {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.itens .tech h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #7CC4DB;
+}
+
+.itens .tech ul {
+    color: whitesmoke;  
+    font-size: 1.2em;
+    height: 50%;
+}
+
+.itens .tech button {
+    border-style: none;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(105, 103, 103, 0.479);
+    color:white;
+}
+
+.itens .tech button:hover {
+    color:#7CC4DB;
+    scale:1.05;
+    transition: 0.5s;
+    background-color: rgba(63, 63, 63, 0.479);
+    font-weight:500;
+}
+
+/* AULAS SECTION */
+
+#aulas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
 
 }
 
-.projeto {
+#aulas .quadro-aula{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+#aulas .quadro-aula li{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
     align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    height: 180px;
-    width: 20vw;
-    background-color:rgba(250, 250, 250, 0.7);
-    box-shadow: 5px 5px 5px rgba(162, 160, 160, 0.8);
-    border: solid 1px lightgray;
-    padding:2ex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
 }

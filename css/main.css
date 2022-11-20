@@ -196,3 +196,45 @@ main section {
     color: white;
 }
 
+/* CONTATO SECTION */
+#contato {
+    background-color: #7CC4DB;
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+}
+
+#contato .aboutme {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+#contato .my-photo {
+    width: 20%;
+    background-color: #001736;
+}
+
+#contato .my-info {
+    width: 60%;
+}
+
+#contato .my-info h1 {
+    font-size: 2.5em;
+}
+
+#contato .my-info h2 {
+    font-size: 1.5em;
+}
+
+#contato .my-info p {
+    font-size: 1.2em;
+}
+
+
+#contato footer {
+    background-color: #1A4D5D;
+    height: 30%;
+}

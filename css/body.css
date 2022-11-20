@@ -12,7 +12,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-ul {
+ul, li{
     list-style: none;
 }
 

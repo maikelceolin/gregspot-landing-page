@@ -35,15 +35,15 @@ main section {
 
 .right article {
     margin-top: 8%;
-    width: 80%;
+    width: 100%;
 }
 
 .right article h1 {
-    font-size: 6em;
+    font-size: 4em;
 }
 
 .right article p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .right button {
@@ -69,7 +69,7 @@ main section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #021d42;
+    background-image: linear-gradient(#012c68, #001736);
     color: whitesmoke;
     margin-top: -70px;
     padding-top: 100px;
@@ -139,11 +139,17 @@ main section {
 
 #aulas {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
     color: white;
 
+}
+
+#aulas h1 {
+    color:#7CC4DB;
+    font-size: 2em;
 }
 
 #aulas .quadro-aula{
@@ -151,15 +157,42 @@ main section {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 80px;
 }
 
 #aulas .quadro-aula li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     align-items: center;
     text-align: center;
+    padding:10px;
+    width: 15%;
+    text-align: center;
 }
+
+#aulas h2 {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+#aulas li a {
+    text-decoration: none;
+    font-size: 1em;
+    color:#1fa1cc;
+}
+
+#aulas li a:hover {
+    color:aqua;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+#aulas li p {
+    text-decoration: none;
+    color: white;
+}
+

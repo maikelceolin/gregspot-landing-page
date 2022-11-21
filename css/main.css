@@ -208,7 +208,7 @@ main section {
 #contato .aboutme {
     display: flex;
     justify-content: center;
-    height: 60%;
+    height: 45%;
     padding-top: 30px;
     gap: 50px;
 }

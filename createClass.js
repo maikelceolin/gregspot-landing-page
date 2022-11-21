@@ -53,6 +53,7 @@ window.onload = document.querySelector('.quadro-aula').innerHTML = `
     ${createClass(aula2309)}
     ${createClass(aula0710)}
     ${createClass(aula2110)}
+    ${createClass(ativ1021)}
     ${createClass(aula1111)}
 
 `

@@ -24,6 +24,7 @@ main section {
     align-items: flex-start;
     justify-content: flex-start;
     background-color: #7CC4DB;
+    background-color: #7CC4DB;
     width: 65vw;
     padding-left: 5%;
 }
@@ -69,6 +70,7 @@ main section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-image: linear-gradient(#012c68, #001736);
     color: whitesmoke;
     margin-top: -70px;
@@ -88,7 +90,6 @@ main section {
     rgba(0, 0, 0, 0.700),
     rgba(0, 0, 0, 0.925),
     rgba(0, 0, 0, 0.700));
-
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -213,8 +214,10 @@ main section {
 }
 
 #contato .my-photo {
-    width: 20%;
-    background-color: #001736;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    width: fit-content;
 }
 
 #contato .my-info {
@@ -233,8 +236,46 @@ main section {
     font-size: 1.2em;
 }
 
+#contato .my-info .stacks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
 
 #contato footer {
     background-color: #1A4D5D;
-    height: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+
+#contato footer .socialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#contato footer .socialMedia div{
+    display: flex;
+    gap: 30px;
+}
+
+#contato footer .foot{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 30%;
+    padding: 10px;
+}
+
+
+
+

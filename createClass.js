@@ -22,6 +22,12 @@ const aula2110 = {
     descricao: "Atividade Voleibol. Posicionando elementos."
 }
 
+const ativ1021 = {
+    link:"./assets/atividade-10-21/ativ-10-21.html",
+    data: "21/10/22",
+    descricao: "Floats e Clear both"
+}
+
 const aula1111 = {
     link:"./assets/atividade-11-11/atividade-11-11.html",
     data: "11/11/22",
